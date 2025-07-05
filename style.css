@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+#menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ffcc00;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery a {
+    margin: 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.gallery a:hover {
+    border: 2px solid #333;
+}
+
+.gallery img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+body.ironman {
+    background-color: #ff4d4d; /* Iron Man red */
+    color: white;
+}
+
+body.captain {
+    background-color: #0033cc; /* Captain America blue */
+    color: white;
+}
+
+body.hulk {
+    background-color: #66cc66; /* Hulk green */
+    color: black;
+}
+
+body.thor {
+    background-color: #9999ff; /* Thor’s stormy purple-blue */
+    color: #fff;
+}
